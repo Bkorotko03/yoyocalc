@@ -4,7 +4,7 @@ from datetime import datetime
 #ASK FOR OR CALCULATE INERTIA
 knowin = input('Do you know the moment of inertia for the rotating body [Y/N]:')
 if knowin == 'Y':
-    i = float(input('Enter moment of inertia (kg*m^2) here:'))
+    i = float(input('Enter moment of inertia (kg*m) here:'))
     M = float(input('Enter mass (kg) of rotating body:'))
     r = float(input('Enter radius (m) of rotating body:'))
 elif knowin == 'N':
@@ -26,5 +26,5 @@ FF = yoyofunc.ftare(r,M,i)
 newweight = 101.9716212978 * FF
 #OPEN AND WRITE TO FILE
 with open('yoyocalcdata.txt', 'a') as file:
-    file.write(f'\n{datetime.now()} \nMass (kg): {M} \nRadius (m): {r} \nMoment of Inertia(kg*m^2): {i}')
+    file.write(f'\n{datetime.now()} \nMass (kg): {M} \nRadius (m): {r} \nMoment of Inertia(kg*m): {i}')
     file.write(f'\nAcceleration (m/s^2): {A} \nChange in Apparent weight (g): {newweight} \nChange in force exerted (N): {FF}')
