@@ -13,7 +13,7 @@ def ftare(r,m,i):
      f = (-1)*((m*g)/(1+(i/(m * r**2))))
      return f
 
-def intertia_calc(r,m):
+def inertia_calc(r,m):
      i = 0.0014 + 2*(0.5*m*(0.0045**2 + r**2))
      return i
 def loop_plot():
