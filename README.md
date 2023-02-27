@@ -7,6 +7,8 @@ Possibly will compile to a portable version, and also may implement a GUI
 
 # yoyofunc.py functions:
 
+(All values in SI unless stated or noted otherwise)
+
 acceleration(r,m,i): Calculates magnitude of acceleration of rotating body
 r = radius of rotating body at point of contact with the string (m)
 m = nass of rotating body (kg)
