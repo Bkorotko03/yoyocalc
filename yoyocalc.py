@@ -28,3 +28,4 @@ newweight = 101.9716212978 * FF
 with open('yoyocalcdata.txt', 'a') as file:
     file.write(f'\n{datetime.now()} \nMass (kg): {M} \nRadius (m): {r} \nMoment of Inertia(kg*m^2): {i}')
     file.write(f'\nAcceleration (m/s^2): {A} \nChange in Apparent weight (g): {newweight} \nChange in force exerted (N): {FF}')
+#testing commits
