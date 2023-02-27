@@ -17,7 +17,7 @@ def ftare(r,m,i):
 def inertia_calc(r,m):
      i = 0.0014 + 2*(0.5*m*(0.0045**2 + r**2))
      return i
-def loop_plot(rmm1 = 4.5, rmm2 = 25, stepmm = 0.5):
+def loop_plot(rmm1 = 4.5, rmm2 = 25, stepmm = 0.5): #NOT SI UNITS
     rmm2 += 0.5
     rmm = np.arange(rmm1,rmm2,stepmm)
     r = rmm/1000
