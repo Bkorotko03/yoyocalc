@@ -13,7 +13,7 @@ elif knowin == 'N':
         r = (float(input('Enter radius (mm) of radius extender here:')))/1000
         m = (float(input('Enter mass (g) of one radius extender here:')))/1000
         M = 0.818 + m
-        i = yoyofunc.inertia_calc(r,m)
+        i = yoyofunc.intertia_calc(r,m)
     elif sameyoyo == 'N':
         print('Please calculate the moment of inertia and restart, also what are you using this for?')
     else:
