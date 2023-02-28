@@ -46,7 +46,7 @@ def main():
             with open(f'{fpath}\yoyocalcdata.txt', 'a') as file:
                 file.write(f'\n{datetime.now()} \nMass (kg): {mkg} \nRadius (m): {rm} \nMoment of Inertia(kg*m): {i}')
                 file.write(f'\nAcceleration (m/s^2): {A} \nChange in Apparent weight (g): {newweight} \nChange in force exerted (N): {FF}')
-            window['-OUTPUT-'].update(f'File Saved at {fpath}\yoyocalcdata.txt') #ADD INPUT FOR FILEPATH AND MAKE EVERYTHING NICE PLEASE
+            window['-OUTPUT-'].update(f'File Saved at {fpath}\yoyocalcdata.txt')
 
     window.close()
 main()
