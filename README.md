@@ -1,9 +1,7 @@
 # yoyocalc
 Interactive Python program that will spit parameters of the rotating object from PHYS 126F-04E SPR23 into a text file
 
-Dependendent on NumPy, SciPy, and DateTime (all available on PiP)
-
-Possibly will compile to a portable version, and also may implement a GUI
+Dependendent on NumPy, SciPy, MatPlotLib, and DateTime (all available on PiP)
 
 # yoyofunc.py functions:
 
