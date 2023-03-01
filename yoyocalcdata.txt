@@ -1,8 +1,0 @@
-
-2023-02-27 13:01:08.272169 
-Mass (kg): 0.818 
-Radius (m): 0.00416 
-Moment of Inertia(kg*m^2): 0.00147
-Acceleration (m/s^2): 0.09353649542785304 
-Change in Apparent weight (g): -7.802139697041209 
-Change in force exerted (N): -0.07651285325998379
