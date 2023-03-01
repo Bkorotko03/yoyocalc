@@ -25,7 +25,7 @@ def main():
                 i = yoyofunc.inertia_calc(rm,mkg)
                 window['-OUTPUT-'].update(f"Acceleration = {yoyofunc.acceleration(rm,mkg,i)} (m/s^2)")
             except ValueError:
-                window['-OUTPUT-'].update('Please enter a number')
+                window['-OUTPUT-'].update('Please enter valid parameters')
         if event == 'Find Moment of Inertia':
             try:
                 rm = float(values['-RMM-'])/1000
@@ -33,7 +33,7 @@ def main():
                 i = yoyofunc.inertia_calc(rm,mkg)
                 window['-OUTPUT-'].update(f"Moment of Inertia = {i} (kg*m)")
             except ValueError:
-                window['-OUTPUT-'].update('Please enter a number')
+                window['-OUTPUT-'].update('Please enter valid parameters')
             
         if event == 'Find Change in Percieved Weight':
             try:
@@ -44,7 +44,7 @@ def main():
                 newweight = 101.9716212978 * FF
                 window['-OUTPUT-'].update(f'Percieved Change in Mass = {newweight} (g)')
             except ValueError:
-                window['-OUTPUT-'].update('Please enter a number')
+                window['-OUTPUT-'].update('Please enter valid parameters')
             
         if event == 'Print Dump to File':
             try:
@@ -62,7 +62,7 @@ def main():
             except FileNotFoundError:
                 window['-OUTPUT-'].update('Please enter a valid filepath')
             except ValueError:
-                window['-OUTPUT-'].update('Please enter a number')
+                window['-OUTPUT-'].update('Please enter valid parameters')
             
 
     window.close()
