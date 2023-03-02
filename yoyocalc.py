@@ -26,6 +26,6 @@ FF = yoyofunc.ftare(r,M,i)
 newweight = 101.9716212978 * FF
 #OPEN AND WRITE TO FILE
 fpath = input('Enter filepath for dump here:') #KEEP WORKING ON THIS< MAKE CLI VERSION AS GOOD AS GUI
-with open('yoyocalcdata.txt', 'a') as file:
+with open(f'{fpath}\yoyocalcdata.txt', 'a') as file:
     file.write(f'\n{datetime.now()} \nMass (kg): {M} \nRadius (m): {r} \nMoment of Inertia(kg*m): {i}')
     file.write(f'\nAcceleration (m/s^2): {A} \nChange in Apparent weight (g): {newweight} \nChange in force exerted (N): {FF}')
