@@ -63,7 +63,5 @@ def main():
                 window['-OUTPUT-'].update('Please enter a valid filepath')
             except ValueError:
                 window['-OUTPUT-'].update('Please enter valid parameters')
-            
-
     window.close()
 main()
