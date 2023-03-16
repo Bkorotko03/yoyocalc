@@ -2,7 +2,7 @@
 Interactive Python program that will spit parameters of the rotating object from PHYS 126F-04E SPR23 into a text file
 
 Dependendent on NumPy, SciPy, MatPlotLib, and DateTime (all available on PiP)
-
+The GUI program is also dependent on PySimpleGui
 # yoyofunc.py functions:
 
 (All values in SI unless stated or noted otherwise)
